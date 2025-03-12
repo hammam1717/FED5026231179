@@ -1,0 +1,31 @@
+body{
+    background-color: blueviolet;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: "DM Serif Text";
+}
+p {
+    color: lime;
+}
+
+a:link {
+    text-decoration: none;
+    color: aquamarine;
+}
+a:visited {
+    color: gold;
+}
+a:hover {
+    text-decoration: none;
+    color: darksalmon;
+    font-weight: bold;
+}
+
+.formatheader {
+    font-size: larger;
+}
+
+.box {
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: radial-gradient(red, yellow, green);
+}
